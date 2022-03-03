@@ -1,0 +1,21 @@
+package package1;
+public class TypeCasting
+{
+	public static void main(String[] args)
+	{			
+		//implicit conversion
+		char a='A';
+		int b=a;
+		System.out.println(a);
+		System.out.println("-----------------");
+		
+		System.out.println("Explicit Type Casting");
+		//explicit conversion
+		double x=45.5;
+		int y=(int)x;
+		System.out.println("Value of x: "+x);
+		System.out.println("Value of y: "+y);
+
+	}
+
+}

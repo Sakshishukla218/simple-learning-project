@@ -1,0 +1,11 @@
+package package1;
+public class AccessModifier1
+{
+	public void Dis1() {
+		AccessModifier acc = new AccessModifier();
+		//System.out.println("a "+emp.a);  // private 
+		//System.out.println("b "+emp.b);	// default 
+		//System.out.println("c "+emp.c);    // protected 			
+		System.out.println("d "+acc.d);	
+	}
+}
